@@ -1,0 +1,21 @@
+1.Installing the Snort IDS (using the NIDS mode)
+
+2. Create a file named "alerts.csv" and a file named "logAttack" inside / var / log / snort /
+
+obs: can be created inside any folder and with any name, as long as the path within the CsvController class is changed into the CSV file and the LOG file.
+
+
+3. Copy file "j48.rules" and "randomtree.rules" into the / etc / snort / rules folder (if the folder does not exist, it must be created).
+
+
+4. When snort is installed, check that snort.conf is in / etc / snort /, if it is in another folder, it should be moved to that path.
+
+
+5. Run the command "snort -T -c /etc/snort/snort.conf -i networkAserMonitored" in the terminal notice that in networkAserMonitorada must be informed the network that will be monitored, eg eth0.
+
+
+6. Run the developed IDS, informing the host Ip to be monitored, the algorithm and the desired rule, and click the execute button.
+
+7. Then run the command "snort -c snort.conf", inside the / etc / snort / folder.
+
+8. To check if you have detected an attack, open the logAtaque file.

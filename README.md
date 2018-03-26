@@ -1,5 +1,5 @@
 # SYN-flood-IDS-based-on-data-mining
-Intrusion Detectyion System development in JAVA and integrated with tool SNORT for detection SYN flood's attack.
+Intrusion Detection System development in JAVA and integrated with tool SNORT for detection SYN flood's attack.
 
 Foi desenvolvido um sistema de detecção de intrusão, integrado a ferramenta IDS Snort , para detecção de ataques DDoS do tipo SYN flood.
 Esse sistema foi desenvolvido na linguagem JAVA e as regras para detecção, implementadas dentro do sistema, foram desenvolvidas após a mineração de dados da base KDD Cup 99.Foram filtrados todos os ataques SYN Flood, após os dados passaram pelo pré-processamento, Data Mining (utilizado o algoritmo Random Tree e o J48) Interpretação/Avaliação com a ferramenta WEKA, e então transcritas as regras para dentro do sistema.
